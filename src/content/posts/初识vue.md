@@ -45,7 +45,7 @@ slug: "初识vue"
 `npm run dev`
 
 #### 构建后的目录结构示例
-![构建后](https://bu.dusays.com/2025/04/13/67fb781fe3155.png)
+![构建后](/assets/images/legacy/67fb781fe3155.png)
 
 ### 安装推荐依赖
 

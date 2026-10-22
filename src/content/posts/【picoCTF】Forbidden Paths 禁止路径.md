@@ -10,9 +10,9 @@ slug: "【picoCTF】Forbidden Paths 禁止路径"
 
 ### 👀Forbidden Paths 禁止路径
 题目截图：
-![Forbidden Paths](https://bu.dusays.com/2025/04/19/68036608db4ff.png)
+![Forbidden Paths](/assets/images/legacy/68036608db4ff.png)
 访问实例可以得到
-![Web eReader](https://bu.dusays.com/2025/04/19/6803664e728bb.png)
+![Web eReader](/assets/images/legacy/6803664e728bb.png)
 
 ### 🤔思路：
 由题已经知道
@@ -27,4 +27,4 @@ slug: "【picoCTF】Forbidden Paths 禁止路径"
 ### 🚩获得flag:
 尝试：`../../../flag.txt`
 flag:`picoCTF{7h3_p47h_70_5ucc355_e5a6fcbc}`
-![](https://bu.dusays.com/2025/04/19/680367fb7609c.png)
+![](/assets/images/legacy/680367fb7609c.png)

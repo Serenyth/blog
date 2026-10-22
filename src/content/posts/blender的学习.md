@@ -163,23 +163,23 @@ slug: "blender的学习"
 
 *   Ctrl + N：重置场景。
 
-![](https://bu.dusays.com/2025/04/06/67f23a31d9c6e.png)
+![](/assets/images/legacy/67f23a31d9c6e.png)
 
 # 2025/4/6 学习内容
 
-![快捷键](https://bu.dusays.com/2025/04/06/67f23ccb41f5b.png)
+![快捷键](/assets/images/legacy/67f23ccb41f5b.png)
 
 案例一：
 
 参考图：
 
-![珍珠少女](https://bu.dusays.com/2025/04/06/67f23ef854ae8.png)
+![珍珠少女](/assets/images/legacy/67f23ef854ae8.png)
 
 
 
 花费一个小时的成果：
 
-![自己做的](https://bu.dusays.com/2025/04/06/67f28ae149950.png)
+![自己做的](/assets/images/legacy/67f28ae149950.png)
 
 还是非常像的哈哈哈
 
@@ -191,5 +191,5 @@ slug: "blender的学习"
 
 渲染有 eexee和cycles两种内置的渲染器
 
-![](https://bu.dusays.com/2025/04/06/67f264075cc8e.png)
+![](/assets/images/legacy/67f264075cc8e.png)
 
