@@ -69,7 +69,8 @@ const adapter = process.env.CF_WORKERS
 export default defineConfig({
 	site: siteConfig.site_url,
 
-	base: "/blog",
+	// 站点是 GitHub Pages 用户站（仓库名 serenyth.github.io），发布在域名根路径。
+	// 若将来改回项目仓库，需把 base 设成 "/仓库名"。
 	trailingSlash: "always",
 
 	// 字体配置 - 只加载实际使用的字体，跳过未引用的以加快构建
