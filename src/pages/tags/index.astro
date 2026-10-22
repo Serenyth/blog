@@ -13,7 +13,7 @@ const topTags = [...tags].sort((a, b) => b.count - a.count).slice(0, 10);
 const topMaxCount = topTags.length > 0 ? topTags[0].count : 1;
 ---
 
-<MainGridLayout title={i18n(I18nKey.tags)} description={i18n(I18nKey.allTags)}>
+<MainGridLayout title={i18n(I18nKey.tags)} description="站内全部文章标签，按使用次数从多到少排列，点击任意标签即可查看该主题下的所有文章。">
     <!-- 页面标题 -->
     <div class="card-base px-8 py-6 mb-4">
         <div class="text-2xl font-bold text-(--primary) mb-2">

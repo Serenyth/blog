@@ -27,7 +27,7 @@ const jsonLd = buildProfilePage({
 	description: profileConfig.bio,
 });
 ---
-<MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
+<MainGridLayout title={i18n(I18nKey.about)} description="关于 Serenyth：一名正在学习前端开发与网络安全的学生，这里放着他的技术笔记、项目记录和联系方式。">
     <script is:inline slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     <div class="flex w-full rounded-(--radius-large) overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">

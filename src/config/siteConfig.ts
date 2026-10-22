@@ -51,7 +51,7 @@ export const siteConfig: SiteConfig = {
 	site_url: "https://serenyth.github.io",
 
 	// 站点描述
-	description: "记录个人的学习过程和一些小工具",
+	description: "Serenyth 的个人博客，记录前端开发、网络安全与 CTF 的学习笔记，也放一些自己写的小工具和日常折腾的记录",
 
 	// 站点关键词
 	keywords: [

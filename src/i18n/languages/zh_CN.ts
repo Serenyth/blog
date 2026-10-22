@@ -85,13 +85,13 @@ export const zh_CN: Translation = {
 	[Key.searchFriends]: "搜索友链...",
 	[Key.friendsEmpty]: "暂无友情链接",
 	[Key.booknav]: "书签导航",
-	[Key.booknavDescription]: "收藏一些好用的网站，按分类整理",
+	[Key.booknavDescription]: "收藏一些好用的网站，按分类整理，包含开发工具、学习资料和日常常用的站点",
 	[Key.searchBooknav]: "搜索书签...",
 	[Key.booknavEmpty]: "暂无书签",
 
 	// 项目展示页
 	[Key.projects]: "项目",
-	[Key.projectsDescription]: "这里展示我开发过的项目",
+	[Key.projectsDescription]: "这里展示我开发过的项目，包含建站工具、脚本和实验性的尝试，附源码地址与说明",
 	[Key.projectDetails]: "查看详情",
 	[Key.projectBack]: "返回项目列表",
 	[Key.projectEmpty]: "暂无项目",
@@ -310,7 +310,7 @@ export const zh_CN: Translation = {
 
 	// RSS页面
 	[Key.rss]: "RSS 订阅",
-	[Key.rssDescription]: "订阅获取最新更新",
+	[Key.rssDescription]: "订阅本站 RSS，新文章发布后会自动推送到你的阅读器，不用反复回来刷新",
 	[Key.rssSubtitle]: "通过 RSS 订阅，第一时间获取最新文章和动态",
 	[Key.rssLink]: "RSS 链接",
 	[Key.rssCopyToReader]: "复制链接到你的 RSS 阅读器",
@@ -329,7 +329,7 @@ export const zh_CN: Translation = {
 
 	// Atom 页面
 	[Key.atom]: "Atom 订阅",
-	[Key.atomDescription]: "订阅获取最新更新",
+	[Key.atomDescription]: "订阅本站 Atom 源，新文章发布后会自动推送到你的阅读器，适合各类 RSS 客户端",
 	[Key.atomSubtitle]: "通过 Atom 订阅，第一时间获取最新文章和动态",
 	[Key.atomLink]: "Atom 链接",
 	[Key.atomCopyToReader]: "复制链接到你的 Atom 阅读器",
@@ -497,7 +497,7 @@ export const zh_CN: Translation = {
 
 	// 相册页面
 	[Key.gallery]: "相册",
-	[Key.galleryDescription]: "记录生活中的美好瞬间",
+	[Key.galleryDescription]: "记录生活中的美好瞬间，按相册整理，包含游戏截图、日常随拍和旅行见闻",
 	[Key.galleryPhotos]: "张照片",
 	[Key.galleryAlbums]: "本相册",
 	[Key.galleryNoAlbums]: "暂无相册",
