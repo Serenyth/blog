@@ -37,5 +37,6 @@ export type BooknavFaviconConfig = {
 export type BooknavPageConfig = {
 	title?: string; // 页面标题，留空则使用 i18n 中的翻译
 	description?: string; // 页面描述，留空则使用 i18n 中的翻译
+	showComment?: boolean; // 是否显示评论区，默认 true
 	favicon: BooknavFaviconConfig; // favicon 自动获取配置
 };

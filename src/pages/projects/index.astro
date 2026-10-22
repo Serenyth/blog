@@ -1,7 +1,8 @@
 ---
 import { Icon } from "astro-icon/components";
+import Comment from "@components/comment/index.astro";
 import ProjectCard from "@/components/pages/projects/ProjectCard.astro";
-import { siteConfig } from "@/config";
+import { commentConfig, siteConfig } from "@/config";
 import I18nKey from "@/i18n/i18nKey";
 import { i18n } from "@/i18n/translation";
 import MainGridLayout from "@/layouts/MainGridLayout.astro";
@@ -21,6 +22,10 @@ if (!siteConfig.pages.projects) {
 
 const title = i18n(I18nKey.projects);
 const description = i18n(I18nKey.projectsDescription);
+
+// 评论区：评论系统启用时才渲染
+const isCommentEnabled =
+	commentConfig?.type && commentConfig.type !== "none";
 
 const projects = await getSortedProjects();
 const projectMeta = projects.map((p) => ({
@@ -125,6 +130,12 @@ const statusFilters = PROJECT_STATUS_KEYS.map((key) => {
 			<div class="text-sm">{i18n(I18nKey.searchNoResults)}</div>
 		</div>
 	</section>
+
+	{isCommentEnabled && (
+		<div class="mt-4">
+			<Comment customPath="/projects/" />
+		</div>
+	)}
 
 	<script slot="head" is:inline>
 		if (!customElements.get("project-filter")) {

@@ -1,7 +1,8 @@
 ---
 import { Icon } from "astro-icon/components";
+import Comment from "@components/comment/index.astro";
 import AlbumCard from "@/components/pages/gallery/AlbumCard.astro";
-import { galleryConfig, siteConfig } from "@/config";
+import { commentConfig, galleryConfig, siteConfig } from "@/config";
 import I18nKey from "@/i18n/i18nKey";
 import { i18n } from "@/i18n/translation";
 import MainGridLayout from "@/layouts/MainGridLayout.astro";
@@ -16,6 +17,10 @@ if (!siteConfig.pages.gallery) {
 
 const title = i18n(I18nKey.gallery);
 const description = i18n(I18nKey.galleryDescription);
+
+// 评论区：评论系统启用时才渲染
+const isCommentEnabled =
+	commentConfig?.type && commentConfig.type !== "none";
 
 // 构建相册数据（扫描照片、获取封面）
 const albums = galleryConfig.albums.map((album) => {
@@ -113,6 +118,12 @@ const allTags = [...new Set(albums.flatMap((a) => a.tags || []))].sort();
       </div>
     )}
   </div>
+
+  {isCommentEnabled && (
+    <div class="mt-4">
+      <Comment customPath="/gallery/" />
+    </div>
+  )}
 
   <script slot="head" is:inline>
     if (!customElements.get("gallery-filter")) {
