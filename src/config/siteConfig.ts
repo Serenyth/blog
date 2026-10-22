@@ -20,11 +20,11 @@ const pages = resolvePageToggles({
 	// 动态页面开关
 	dynamic: false,
 	// 项目展示页开关
-	projects: false,
+	projects: true,
 	// 相册页面开关
-	gallery: false,
+	gallery: true,
 	// 书签导航页面开关
-	booknav: false,
+	booknav: true,
 	// 哔哩哔哩追番页面开关
 	bilibili: false,
 	// 番组计划页面开关
@@ -54,14 +54,18 @@ export const siteConfig: SiteConfig = {
 	description: "Serenyth 的个人博客",
 
 	// 站点关键词
-	keywords: ["Serenyth", "博客", "技术博客"],
+	keywords: [
+		"Serenyth",
+		"博客",
+		"技术博客"
+	],
 
 	// 主题色
 	themeColor: {
 		// 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		hue: 165,
 		// 默认模式："light" 亮色，"dark" 暗色，"system" 跟随系统
-		defaultMode: "system",
+		defaultMode: "light",
 	},
 
 	// 页面整体宽度（单位：rem）

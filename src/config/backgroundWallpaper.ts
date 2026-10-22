@@ -113,7 +113,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				{
 					name: "Email",
 					icon: "fa7-solid:envelope",
-					url: "mailto:xiaye@msn.com",
+					url: "mailto:hello204@126.com",
 				},
 				{
 					name: "Sponsor",
@@ -123,7 +123,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 				{
 					name: "RSS",
 					icon: "fa7-solid:rss",
-					url: "/rss/",
+					url: "blog/rss/",
 				},
 			],
 		},
