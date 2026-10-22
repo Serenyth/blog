@@ -2,7 +2,7 @@
 title: "blender的学习"
 published: 2025-04-05
 updated: 2025-04-05
-description: "学习视频是【【Kurt】Blender零基础入门教程 Blender中文区新手必刷教程(已完结)】 一、视图操作 数字键…"
+description: "跟着 Kurt 零基础教程整理的 Blender 笔记：视图切换、选取、移动缩放、点线面编辑和渲染的快捷键，末尾附第一次临摹的成果图。"
 image: "https://image.baidu.com/search/down?url=https://i1.hdslb.com/bfs/archive/9b45c566fc54ad6e6555d7075179acf7cd9c6077.jpg@672w_378h_1c_!web-search-common-cover"
 tags: ["blender", "建模"]
 category: "学习"

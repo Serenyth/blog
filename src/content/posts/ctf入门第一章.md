@@ -2,7 +2,7 @@
 title: "CTF入门第一章"
 published: 2025-03-30
 updated: 2025-03-30
-description: "CTF 知识体系分类整理 一、Web 安全 【核心漏洞类型】 Web 安全核心漏洞类型 Web 安全核心漏洞类型 Web…"
+description: "把 CTF 的知识体系按方向拆开：Web 常见漏洞类型、密码学的三个分支、逆向工程、二进制漏洞利用，以及隐写取证这类杂项。"
 tags: ["CTF"]
 category: "学习"
 slug: "ctf入门第一章"

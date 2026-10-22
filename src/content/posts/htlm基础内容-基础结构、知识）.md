@@ -2,7 +2,7 @@
 title: "HTML基础内容（文档结构与核心知识）"
 published: 2025-03-27
 updated: 2025-04-02
-description: "基本文档结构 核心组成部分 1. 文档声明 声明HTML5文档类型 2. 根元素 标签包含整个文档内容 3. 头部区域 …"
+description: "从文档结构讲起的 HTML 基础：head 元数据配置、相对与绝对路径、图片与超链接、锚点、语义化布局标签、音视频和表单控件。"
 tags: ["html", "前端"]
 category: "学习"
 author: "Lonly"

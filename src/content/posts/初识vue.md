@@ -2,7 +2,7 @@
 title: "初识vue"
 published: 2025-04-13
 updated: 2025-04-26
-description: "如何构建 Vue 项目 使用 Vite 脚手架构建 Vue 项目 npm create vite@latest fron…"
+description: "用 Vite 脚手架从零起一个 Vue 项目：命令参数怎么读、每个目录管什么、功能与开发依赖分别要装哪些，最后打包输出。"
 tags: ["vue", "前端"]
 category: "web开发"
 slug: "初识vue"

@@ -2,7 +2,7 @@
 title: "vue的第一个项目！"
 published: 2025-04-13
 updated: 2025-04-22
-description: "知识回顾： vue项目结构说明： App.vue : 应用的根组件，所有页面的容器 components : 存放可复用…"
+description: "动手写第一个 Vue 3 页面：认清单文件组件的三件套，理解 script setup 和 ref 在做什么，再用 Element Plus 搭出左侧导航布局。"
 tags: ["vue", "前端"]
 category: "web开发"
 slug: "vue的第一个项目"

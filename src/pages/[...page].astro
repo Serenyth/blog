@@ -25,9 +25,13 @@ const heading =
 	page.currentPage === 1
 		? siteConfig.title
 		: `${i18n(I18nKey.home)} · ${page.currentPage}`;
+
+// <title> 的覆盖值：首屏留空，让 Layout 用「站点标题 - 副标题」的默认组合；
+// 第 2 页起必须带上页码，否则 /2/ 的 title 和首页一模一样，搜索结果里分不出是两篇
+const headTitle = page.currentPage === 1 ? undefined : heading;
 ---
 
-<MainGridLayout heading={heading}>
+<MainGridLayout heading={heading} headTitle={headTitle}>
   <PostPage page={page} />
   {
     page.total > page.size && (

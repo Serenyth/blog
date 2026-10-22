@@ -2,7 +2,7 @@
 title: "【picoCTF】Forbidden Paths 禁止路径"
 published: 2025-04-20
 updated: 2025-04-23
-description: "👀Forbidden Paths 禁止路径 题目截图： 访问实例可以得到 🤔思路： 由题已经知道 或许可以尝试使用相…"
+description: "picoCTF 的 Forbidden Paths 题解：网站过滤了绝对路径，于是改用 ../../../flag.txt 这样的相对路径做目录穿越，把 flag 读出来。"
 tags: ["题目", "CTF"]
 category: "picoCTF"
 slug: "【picoCTF】Forbidden Paths 禁止路径"

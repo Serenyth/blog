@@ -2,7 +2,7 @@
 title: "Socket 学习"
 published: 2025-05-07
 updated: 2025-05-07
-description: "一、Web 服务基础 1\\. 什么是 Web 服务 定义：一种面向服务的架构技术，通过标准 Web 协议提供服务，实现不…"
+description: "Socket 编程入门：C/S 与 B/S 架构对比、TCP 握手与挥手、IP 和端口、套接字类型，配 Python 服务端客户端代码和端口扫描。"
 tags: ["python"]
 category: "python"
 slug: "socket-学习"

@@ -2,7 +2,7 @@
 title: "python包的概念"
 published: 2025-04-02
 updated: 2025-04-02
-description: "自定义pyothon包 1. 包的文件夹中需要包含init.py，才可以被其他python文件引用。 什么是init.p…"
+description: "讲清 Python 里包和模块的关系：为什么文件夹里得有 __init__.py 才能被导入，以及这个文件实际能完成哪些初始化工作。"
 tags: ["python"]
 category: "学习"
 slug: "python包的概念"

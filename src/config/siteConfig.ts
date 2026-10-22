@@ -45,13 +45,13 @@ export const siteConfig: SiteConfig = {
 	title: "Serenyth",
 
 	// 站点副标题
-	subtitle: "个人博客",
+	subtitle: "Serenyth-blog",
 
 	// 站点 URL
 	site_url: "https://serenyth.github.io",
 
 	// 站点描述
-	description: "Serenyth 的个人博客",
+	description: "记录个人的学习过程和一些小工具",
 
 	// 站点关键词
 	keywords: [

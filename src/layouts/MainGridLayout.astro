@@ -47,6 +47,8 @@ interface Props {
 		minutes?: number;
 	};
 	heading?: string;
+	/** 只覆盖 <title> / og:title，不影响横幅上的大字标题 */
+	headTitle?: string;
 }
 
 const backgroundImages = getBackgroundImages();
@@ -66,6 +68,7 @@ const {
 	encrypted = false,
 	bannerPostMeta,
 	heading,
+	headTitle,
 } = Astro.props;
 
 const isHomePageCheck = isHomePage(Astro.url.pathname);
@@ -93,7 +96,7 @@ const {
 } = sidebar;
 ---
 
-<Layout title={title} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle} postSlug={postSlug} postCoverImage={postCoverImage} ogImageWidth={ogImageWidth} ogImageHeight={ogImageHeight} ogImageAlt={ogImageAlt} hasWallpaper={hasWallpaper}>
+<Layout title={headTitle ?? title} description={description} lang={lang} setOGTypeArticle={setOGTypeArticle} postSlug={postSlug} postCoverImage={postCoverImage} ogImageWidth={ogImageWidth} ogImageHeight={ogImageHeight} ogImageAlt={ogImageAlt} hasWallpaper={hasWallpaper}>
 
 <slot slot="head" name="head" />
 <HeaderTopRow navbarMode={navbarMode} navbarWidthFull={navbarWidthFull} />

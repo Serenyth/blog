@@ -2,7 +2,7 @@
 title: "前端JS：关于DOM元素"
 published: 2025-03-27
 updated: 2025-04-02
-description: "核心概念 元素(Element) vs 节点(Node) 元素：HTML文档中的具体标签（如 ） 节点：文档中的所有组成…"
+description: "前端 DOM 入门：先分清元素和节点的区别，再整理常用的查找与修改方法，配动态表格和颜色切换器两个小案例做练习。"
 tags: ["js", "前端"]
 category: "学习"
 slug: "前端JS：关于DOM元素"
