@@ -53,6 +53,10 @@ import { remarkMermaid } from "./src/plugins/remark-mermaid.js";
 import { remarkPlantuml } from "./src/plugins/remark-plantuml.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 import { remarkWikiLink } from "./src/plugins/remark-wiki-link.js";
+import {
+	collectPostLastmod,
+	createLastmodResolver,
+} from "./src/plugins/sitemap-lastmod.mjs";
 import { collectUsedFontCssVars } from "./src/utils/fontHelper";
 
 if (process.env.NODE_ENV === "development") {
@@ -64,6 +68,10 @@ const adapter = process.env.CF_WORKERS
 			prerenderEnvironment: "node",
 		})
 	: undefined;
+
+// sitemap 的 lastmod：文章页取自己 frontmatter 的 updated（缺省退回 published），
+// 首页/分页/归档/分类/标签/系列/RSS 这些列表页取全站最新一篇的日期
+const resolveLastmod = createLastmodResolver(collectPostLastmod());
 
 // https://astro.build/config
 export default defineConfig({
@@ -280,6 +288,18 @@ export default defineConfig({
 					return false;
 				}
 				return true;
+			},
+			// 补 <lastmod>：只有能静态推导出真实日期的 URL 才写，
+			// 查不到的留空比填错强（填错会让 Google 整列忽略）
+			serialize: (item) => {
+				let pathname;
+				try {
+					pathname = decodeURIComponent(new URL(item.url).pathname);
+				} catch (_) {
+					return item;
+				}
+				const lastmod = resolveLastmod(pathname);
+				return lastmod ? { ...item, lastmod } : item;
 			},
 		}),
 		mdx(),
