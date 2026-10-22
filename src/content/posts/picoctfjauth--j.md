@@ -3,10 +3,15 @@ title: "【picoCTF】JAuth  J"
 published: 2025-04-19
 updated: 2025-04-23
 description: "picoCTF JAuth 题解：先用题目给的账号登录，再在控制台发现 cookie 里的 token 是 JWT，最后把角色从 user 改成 admin 拿到 flag。"
-tags: ["CTF", "题目"]
+image: /assets/images/legacy/6804ac0036a4e.png
+tags: [CTF, 题目]
 category: "picoCTF"
-slug: "picoctfjauth--j"
+draft: false
+pinned: false
+slug: picoctfjauth--j
+series: "picoCTF靶场"
 ---
+
 
 ### 👀JAuth  J
 题目截图：
